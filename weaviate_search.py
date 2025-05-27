@@ -15,7 +15,7 @@ def content_search(query: str = "", collection_name: str = "docs123", limit: int
         # 执行搜索查询
         collection_exists = client.collections.exists(collection_name)
         if not collection_exists:
-            print(f"Collection '{collection_name}' not found. Creating it now.")
+            print(f"Collection '{collection_name}' not found. ")
         else:
             print(f"Collection '{collection_name}' exists. Proceeding with search.")
             results = client.collections.get(collection_name)
