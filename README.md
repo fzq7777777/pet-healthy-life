@@ -14,3 +14,5 @@
 3. 基于向量数据库返回的检索结果，结合qwen 3的AI问答
 4. 图片嵌入和查询，model使用"multimodal-embedding-v1"
 5. 智能体RAG
+6. 写作助手
+7. 多智能体
